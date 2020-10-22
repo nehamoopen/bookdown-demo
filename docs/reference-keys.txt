@@ -1,6 +1,5 @@
 preface
 about-this-book
-background
 structure-of-this-book
 disclaimer
 contributors
