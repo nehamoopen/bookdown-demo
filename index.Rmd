@@ -12,7 +12,7 @@ github-repo: nehamoopen/bookdown-demo
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
-# Preface
+# Preface {-}
 
 This is a demo of the upcoming _Guide to Data Privacy_ built using the bookdown package in R.
 
