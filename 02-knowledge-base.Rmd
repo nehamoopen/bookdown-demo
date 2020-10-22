@@ -1,16 +1,16 @@
-# (PART) Knowledge Base {-}   
+# (PART) Knowledge Base {-}    
 
-# **2.1** What is data privacy? What is the GDPR? {-}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus. Nec feugiat nisl pretium fusce id velit. In hac habitasse platea dictumst vestibulum rhoncus est. Nam libero justo laoreet sit amet cursus sit. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Arcu dui vivamus arcu felis. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Etiam tempor orci eu lobortis elementum nibh. Vitae aliquet nec ullamcorper sit. Neque vitae tempus quam pellentesque nec nam aliquam. Maecenas ultricies mi eget mauris pharetra. Sapien et ligula ullamcorper malesuada proin libero nunc. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Velit egestas dui id ornare arcu odio. Sed euismod nisi porta lorem. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. In iaculis nunc sed augue lacus.
-
-
-# **2.2** What do researchers need to keep in mind? {-}
+# What is data privacy? What is the GDPR? {-}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus. Nec feugiat nisl pretium fusce id velit. In hac habitasse platea dictumst vestibulum rhoncus est. Nam libero justo laoreet sit amet cursus sit. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Arcu dui vivamus arcu felis. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Etiam tempor orci eu lobortis elementum nibh. Vitae aliquet nec ullamcorper sit. Neque vitae tempus quam pellentesque nec nam aliquam. Maecenas ultricies mi eget mauris pharetra. Sapien et ligula ullamcorper malesuada proin libero nunc. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Velit egestas dui id ornare arcu odio. Sed euismod nisi porta lorem. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. In iaculis nunc sed augue lacus.
 
-# **2.2** Do's & Don't's {-}
+
+# What do researchers need to keep in mind? {-}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus. Nec feugiat nisl pretium fusce id velit. In hac habitasse platea dictumst vestibulum rhoncus est. Nam libero justo laoreet sit amet cursus sit. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Arcu dui vivamus arcu felis. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Etiam tempor orci eu lobortis elementum nibh. Vitae aliquet nec ullamcorper sit. Neque vitae tempus quam pellentesque nec nam aliquam. Maecenas ultricies mi eget mauris pharetra. Sapien et ligula ullamcorper malesuada proin libero nunc. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Velit egestas dui id ornare arcu odio. Sed euismod nisi porta lorem. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. In iaculis nunc sed augue lacus.
 
-# **2.3** Frequently Asked Questions {-}
+# Do's & Don't's {-}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque purus semper eget duis at tellus. Nec feugiat nisl pretium fusce id velit. In hac habitasse platea dictumst vestibulum rhoncus est. Nam libero justo laoreet sit amet cursus sit. In hendrerit gravida rutrum quisque non tellus orci ac auctor. Arcu dui vivamus arcu felis. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Etiam tempor orci eu lobortis elementum nibh. Vitae aliquet nec ullamcorper sit. Neque vitae tempus quam pellentesque nec nam aliquam. Maecenas ultricies mi eget mauris pharetra. Sapien et ligula ullamcorper malesuada proin libero nunc. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Velit egestas dui id ornare arcu odio. Sed euismod nisi porta lorem. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. In iaculis nunc sed augue lacus.
+
+# Frequently Asked Questions {-}

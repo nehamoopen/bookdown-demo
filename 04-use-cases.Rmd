@@ -1,11 +1,11 @@
-# (PART) USE CASES {-}   
+# (PART) Use Cases {-}   
 
-# **4.1** Pseudonymization {-}
+# Pseudonymization 
 
-## **4.1.2** Youth {-}
+## Youth 
 
-# **4.2** Synthetic Data {-}
+# Synthetic Data 
 
-## **4.2.1** OSIRIS {-}
+## OSIRIS 
 
-## **4.2.2** PURE {-}
+## PURE 
