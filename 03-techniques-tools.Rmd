@@ -1,4 +1,4 @@
-# Techniques & Tools {-} {#techniques_tools}
+# Techniques & Tools {-} 
 
 ## Anonymization
 

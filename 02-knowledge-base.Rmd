@@ -1,4 +1,4 @@
-# Knowledge Base {-} {#knowledge_base}
+# Knowledge Base {-} 
 
 ## What is data privacy? What is the GDPR?
 
