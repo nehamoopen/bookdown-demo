@@ -1,4 +1,4 @@
----
+--- 
 title: "Guide to Data Privacy"
 author: "Data Privacy project team at Utrecht University"
 date: "`r Sys.Date()`"
@@ -9,59 +9,6 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: nehamoopen/bookdown-demo
-description: "This is a demo of the upcoming Data Privacy Guide built using the bookdown package in R."
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
 
-# About this Book 
-
-
-This is a demo of the upcoming _Guide to Data Privacy_ built using the bookdown package in R.
-
-During the next team meeting, please explore the structure of the book and provide your thoughts and input on:
-
-* improvements
-* needs & requirements
-* ideas
-* structure 
-
-Please note your comments in the meeting notes document in MS Teams. Or better yet, open issues in the GitHub repo! 
-
-This demo was built using the minimal example feature in R Markdown and bookdown (https://github.com/rstudio/bookdown). Neha will close this demo repository and build the actual guide from scratch.
-
-## Background
-
-The aim of this project is to build up knowledge, tools, and experience of how researchers can and should deal with personal and sensitive data, with an emphasis on pseudonymization and anonymization techniques + tools. At the moment, knowledge about this appears limited or at best, scattered. This is because different disciplines or projects encounter different issues and/or approach from different angles. This UU-wide project aims to collect information and experiences and build a knowledge base and tool base for UU researchers, wherein the solutions are accessible and reusable as far as possible. 
-
-The specific project goals are as follows: 
-1.	Create a knowledge base for researchers to learn about pseudonymization and anonymization. 
-2.	Create a tool repository for researchers.
-3.	Realize or expand a number of tools to solve concrete problems of research projects in this area.
-4.	Develop various workshops and training courses for researchers and support staff about dealing with privacy-sensitive data and the use of the available tools. 
-
-## Structure of this Book
-
-This is structured into two broad sections:
-
-* A **Knowledge Base** which provides a researcher-readable introductions to relevant data privacy topics. The content will draw from more detailed guides and links to trainings, which we highly recommend that readers refer to once they delve into a topic. 
-
-* A **Techniques & Tools** section which provides an overview of available or known tools, techniques, and workflows to address data privacy issues. 
-
-Each technique (ex. Anonymization) will be contained in a chapter which includes a brief introduction to the concept. Thereafter, sub-sections will introduce tools or workflows (ex. OpenAIRE's Amnesia tool). Where available, tools will be supplemented by an actual use case. 
-
-## Disclaimer
-
-```{block, type='FOO'}
-
-The information in this guide has been compiled with great care, but it absolutely does not come with any guarantees. We may not have tested techniques or tools directly, and we cannot always be sure that certain tools (ex. software) are up to date. 
-
-```
-
-## Contributors
-
-Insert contributor's names with links to their profiles / ORCID ids etc.
-
-## How to cite this book
-
-If you would like to cite our guide, you can use the DOI (which will eventually be included) and in the following format:
-
-(insert citation)
