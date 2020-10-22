@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Techniques &amp; Tools | Guide to Data Privacy</title>
+  <title>Guide to Data Privacy</title>
   <meta name="description" content="This is a demo of the upcoming Data Privacy Guide built using the bookdown package in R." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Techniques &amp; Tools | Guide to Data Privacy" />
+  <meta property="og:title" content="Guide to Data Privacy" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Techniques &amp; Tools | Guide to Data Privacy" />
+  <meta name="twitter:title" content="Guide to Data Privacy" />
   
   <meta name="twitter:description" content="This is a demo of the upcoming Data Privacy Guide built using the bookdown package in R." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="knowledge-base.html"/>
-<link rel="next" href="references.html"/>
+
+<link rel="next" href="knowledge-base.html"/>
 <script src="libs/header-attrs-2.4/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -122,40 +122,58 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="techniques-tools" class="section level1 unnumbered" number="">
-<h1>Techniques &amp; Tools</h1>
-<div id="anonymization" class="section level2" number="0.9">
-<h2><span class="header-section-number">0.9</span> Anonymization</h2>
-<p>This is just copy-paste from a legal website, we want to make it way more readable.</p>
-<p>Recital 26 of the GDPR defines anonymized data as “data rendered anonymous in such a way that the data subject is not or no longer identifiable.” Although circular, this definition emphasizes that anonymized data must be stripped of any identifiable information, making it impossible to derive insights on a discreet individual, even by the party that is responsible for the anonymization.</p>
-<div id="amnesia" class="section level3" number="0.9.1">
-<h3><span class="header-section-number">0.9.1</span> Amnesia</h3>
-<p><a href="https://amnesia.openaire.eu/">Amnesia</a> is a flexible data anonymization tool developed by <a href="openaire.eu">OpenAIRE</a>. It allows to remove identifying information from data. Amnesia does not only remove direct identifiers like names, SSNs, etc., but also transforms secondary identifiers like birth date and zip code so that individuals cannot be identified in the data. Amnesia supports k-anonymity and km-anonymity. Amnesia is available both as an online service and as a local application.</p>
+<div id="header">
+<h1 class="title">Guide to Data Privacy</h1>
+<p class="author"><em>Data Privacy project team at Utrecht University</em></p>
+<p class="date"><em>2020-10-22</em></p>
+</div>
+<div id="about-this-book" class="section level1 unnumbered" number="">
+<h1>About this Book</h1>
+<p>This is a demo of the upcoming <em>Guide to Data Privacy</em> built using the bookdown package in R.</p>
+<p>During the next team meeting, please explore the structure of the book and provide your thoughts and input on:</p>
+<ul>
+<li>improvements</li>
+<li>needs &amp; requirements</li>
+<li>ideas</li>
+<li>structure</li>
+</ul>
+<p>Please note your comments in the meeting notes document in MS Teams. Or better yet, open issues in the GitHub repo!</p>
+<p>This demo was built using the minimal example feature in R Markdown and bookdown (<a href="https://github.com/rstudio/bookdown" class="uri">https://github.com/rstudio/bookdown</a>). Neha will close this demo repository and build the actual guide from scratch.</p>
+<div id="background" class="section level2" number="0.1">
+<h2><span class="header-section-number">0.1</span> Background</h2>
+<p>The aim of this project is to build up knowledge, tools, and experience of how researchers can and should deal with personal and sensitive data, with an emphasis on pseudonymization and anonymization techniques + tools. At the moment, knowledge about this appears limited or at best, scattered. This is because different disciplines or projects encounter different issues and/or approach from different angles. This UU-wide project aims to collect information and experiences and build a knowledge base and tool base for UU researchers, wherein the solutions are accessible and reusable as far as possible.</p>
+<p>The specific project goals are as follows:
+1. Create a knowledge base for researchers to learn about pseudonymization and anonymization.
+2. Create a tool repository for researchers.
+3. Realize or expand a number of tools to solve concrete problems of research projects in this area.
+4. Develop various workshops and training courses for researchers and support staff about dealing with privacy-sensitive data and the use of the available tools.</p>
+</div>
+<div id="structure-of-this-book" class="section level2" number="0.2">
+<h2><span class="header-section-number">0.2</span> Structure of this Book</h2>
+<p>This is structured into two broad sections:</p>
+<ul>
+<li><p>A <strong>Knowledge Base</strong> which provides a researcher-readable introductions to relevant data privacy topics. The content will draw from more detailed guides and links to trainings, which we highly recommend that readers refer to once they delve into a topic.</p></li>
+<li><p>A <strong>Techniques &amp; Tools</strong> section which provides an overview of available or known tools, techniques, and workflows to address data privacy issues.</p></li>
+</ul>
+<p>Each technique (ex. Anonymization) will be contained in a chapter which includes a brief introduction to the concept. Thereafter, sub-sections will introduce tools or workflows (ex. OpenAIRE’s Amnesia tool). Where available, tools will be supplemented by an actual use case.</p>
+</div>
+<div id="disclaimer" class="section level2" number="0.3">
+<h2><span class="header-section-number">0.3</span> Disclaimer</h2>
+<div class="FOO">
+<p>
+The information in this guide has been compiled with great care, but it absolutely does not come with any guarantees. We may not have tested techniques or tools directly, and we cannot always be sure that certain tools (ex. software) are up to date.
+</p>
 </div>
 </div>
-<div id="pseudonymization" class="section level2" number="0.10">
-<h2><span class="header-section-number">0.10</span> Pseudonymization</h2>
-<p>The GDPR defines pseudonymization as “the processing of personal data in such a way that the data can no longer be attributed to a specific data subject without the use of additional information.” To pseudonymize a data set, the “additional information” must be “kept separately and subject to technical and organizational measures to ensure non-attribution to an identified or identifiable person.” In sum, it is a privacy-enhancing technique where directly identifying data is held separately and securely from processed data to ensure non-attribution.</p>
-<div id="anonymouus" class="section level3" number="0.10.1">
-<h3><span class="header-section-number">0.10.1</span> anonymoUUs</h3>
-<p><a href="https://github.com/UtrechtUniversity/anonymouus">anonymoUUs</a> facilitates the replacement of keywords or regex-patterns within a file tree or zipped archive. It recursively traverses the tree, opens supported files and substitutes any found pattern or keyword with a replacement. Besides contents, anonymoUUs will substitue keywords/patterns in file/folder-paths as well.</p>
-<p>The result will be either a copied or replaced version of the original file-tree with all substitutions made.</p>
-<p>As of now, anonymoUUs supports text-based files, like .txt, .html, .json and .csv. UTF-8 encoding is assumed. Besides text files, anonymoUUs is also able to handle (nested) zip archives. These archives will be unpacked in a temp folder, processed and zipped again.</p>
-<div id="use-case-youth" class="section level4" number="0.10.1.1">
-<h4><span class="header-section-number">0.10.1.1</span> use case: YOUth</h4>
-<p>Write about how the anonymoUUs script has been applied to the YOUth data.</p>
+<div id="contributors" class="section level2" number="0.4">
+<h2><span class="header-section-number">0.4</span> Contributors</h2>
+<p>Insert contributor’s names with links to their profiles / ORCID ids etc.</p>
 </div>
-</div>
-</div>
-<div id="synthetic-data" class="section level2" number="0.11">
-<h2><span class="header-section-number">0.11</span> Synthetic Data</h2>
-</div>
-<div id="data-point" class="section level2" number="0.12">
-<h2><span class="header-section-number">0.12</span> Data Point?</h2>
-<div id="personal-health-train" class="section level3" number="0.12.1">
-<h3><span class="header-section-number">0.12.1</span> Personal Health Train</h3>
+<div id="how-to-cite-this-book" class="section level2" number="0.5">
+<h2><span class="header-section-number">0.5</span> How to cite this book</h2>
+<p>If you would like to cite our guide, you can use the DOI (which will eventually be included) and in the following format:</p>
+<p>(insert citation)</p>
 
-</div>
 </div>
 </div>
             </section>
@@ -163,8 +181,8 @@
           </div>
         </div>
       </div>
-<a href="knowledge-base.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+
+<a href="knowledge-base.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -195,7 +213,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/03-techniques-tools.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-index.Rmd",
 "text": "Edit"
 },
 "history": {

@@ -1,14 +1,11 @@
-preface
 background
 structure-of-this-book
 disclaimer
 contributors
 how-to-cite-this-book
-knowledge_base
 what-is-data-privacy-what-is-the-gdpr
 what-do-researchers-need-to-keep-in-mind
 dos-donts
-techniques_tools
 anonymization
 amnesia
 pseudonymization
