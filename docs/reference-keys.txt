@@ -1,12 +1,9 @@
-fig:nice-fig
-tab:nice-tab
 preface
-intro
-book_structure
+background
+structure-of-this-book
 disclaimer
-credits
-acknowledgements
 contributors
+how-to-cite-this-book
 knowledge_base
 what-is-data-privacy-what-is-the-gdpr
 what-do-researchers-need-to-keep-in-mind
@@ -15,7 +12,7 @@ techniques_tools
 anonymization
 amnesia
 pseudonymization
-uunonymous
+anonymouus
 use-case-youth
 synthetic-data
 data-point

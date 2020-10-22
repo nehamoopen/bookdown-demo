@@ -1,0 +1,33 @@
+# Techniques & Tools {-} {#techniques_tools}
+
+## Anonymization
+
+This is just copy-paste from a legal website, we want to make it way more readable.
+
+Recital 26 of the GDPR defines anonymized data as “data rendered anonymous in such a way that the data subject is not or no longer identifiable.” Although circular, this definition emphasizes that anonymized data must be stripped of any identifiable information, making it impossible to derive insights on a discreet individual, even by the party that is responsible for the anonymization. 
+
+### Amnesia
+
+[Amnesia](https://amnesia.openaire.eu/) is a flexible data anonymization tool developed by [OpenAIRE](openaire.eu). It allows to remove identifying information from data. Amnesia does not only remove direct identifiers like names, SSNs, etc., but also transforms secondary identifiers like birth date and zip code so that individuals cannot be identified in the data. Amnesia supports k-anonymity and km-anonymity. Amnesia is available both as an online service and as a local application.
+
+## Pseudonymization
+
+The GDPR defines pseudonymization as “the processing of personal data in such a way that the data can no longer be attributed to a specific data subject without the use of additional information.” To pseudonymize a data set, the “additional information” must be “kept separately and subject to technical and organizational measures to ensure non-attribution to an identified or identifiable person.” In sum, it is a privacy-enhancing technique where directly identifying data is held separately and securely from processed data to ensure non-attribution.
+
+### anonymoUUs
+
+[anonymoUUs](https://github.com/UtrechtUniversity/anonymouus) facilitates the replacement of keywords or regex-patterns within a file tree or zipped archive. It recursively traverses the tree, opens supported files and substitutes any found pattern or keyword with a replacement. Besides contents, anonymoUUs will substitue keywords/patterns in file/folder-paths as well.
+
+The result will be either a copied or replaced version of the original file-tree with all substitutions made.
+
+As of now, anonymoUUs supports text-based files, like .txt, .html, .json and .csv. UTF-8 encoding is assumed. Besides text files, anonymoUUs is also able to handle (nested) zip archives. These archives will be unpacked in a temp folder, processed and zipped again.
+
+#### use case: YOUth
+
+Write about how the anonymoUUs script has been applied to the YOUth data.
+
+## Synthetic Data
+
+## Data Point?
+
+### Personal Health Train
