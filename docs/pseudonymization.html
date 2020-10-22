@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 Knowledge Base | Guide to Data Privacy</title>
+  <title>4.2 Pseudonymization | Guide to Data Privacy</title>
   <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 Knowledge Base | Guide to Data Privacy" />
+  <meta property="og:title" content="4.2 Pseudonymization | Guide to Data Privacy" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="nehamoopen/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 Knowledge Base | Guide to Data Privacy" />
+  <meta name="twitter:title" content="4.2 Pseudonymization | Guide to Data Privacy" />
   
   <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="how-to-cite-this-book.html"/>
-<link rel="next" href="what-is-data-privacy-what-is-the-gdpr.html"/>
+<link rel="prev" href="anonymization.html"/>
+<link rel="next" href="synthetic-data.html"/>
 <script src="libs/header-attrs-2.4/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -122,16 +122,27 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="knowledge-base" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> Knowledge Base</h1>
+<div id="pseudonymization" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Pseudonymization</h2>
+<p>The GDPR defines pseudonymization as “the processing of personal data in such a way that the data can no longer be attributed to a specific data subject without the use of additional information.” To pseudonymize a data set, the “additional information” must be “kept separately and subject to technical and organizational measures to ensure non-attribution to an identified or identifiable person.” In sum, it is a privacy-enhancing technique where directly identifying data is held separately and securely from processed data to ensure non-attribution.</p>
+<div id="anonymouus" class="section level3" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> anonymoUUs</h3>
+<p><a href="https://github.com/UtrechtUniversity/anonymouus">anonymoUUs</a> facilitates the replacement of keywords or regex-patterns within a file tree or zipped archive. It recursively traverses the tree, opens supported files and substitutes any found pattern or keyword with a replacement. Besides contents, anonymoUUs will substitue keywords/patterns in file/folder-paths as well.</p>
+<p>The result will be either a copied or replaced version of the original file-tree with all substitutions made.</p>
+<p>As of now, anonymoUUs supports text-based files, like .txt, .html, .json and .csv. UTF-8 encoding is assumed. Besides text files, anonymoUUs is also able to handle (nested) zip archives. These archives will be unpacked in a temp folder, processed and zipped again.</p>
+<div id="use-case-youth" class="section level4" number="4.2.1.1">
+<h4><span class="header-section-number">4.2.1.1</span> use case: YOUth</h4>
+<p>Write about how the anonymoUUs script has been applied to the YOUth data.</p>
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="how-to-cite-this-book.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="what-is-data-privacy-what-is-the-gdpr.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="anonymization.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="synthetic-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -162,7 +173,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/nehamoopen/bookdown-demo/edit/master/02-knowledge-base.Rmd",
+"link": "https://github.com/nehamoopen/bookdown-demo/edit/master/03-techniques-tools.Rmd",
 "text": "Edit"
 },
 "history": {
