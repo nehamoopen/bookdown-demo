@@ -8,11 +8,11 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: nehamoopen/bookdown-demo
 description: "This is a demo of the upcoming Data Privacy Guide built using the bookdown package in R."
 ---
 
-# About this Book {-} 
+# About this Book 
 
 
 This is a demo of the upcoming _Guide to Data Privacy_ built using the bookdown package in R.
