@@ -1,4 +1,4 @@
-# (PART) Techniques & Tools    
+# (PART) Techniques & Tools {-}   
 
 # Decision Tree Tool
 
@@ -24,7 +24,9 @@ The result will be either a copied or replaced version of the original file-tree
 
 As of now, anonymoUUs supports text-based files, like .txt, .html, .json and .csv. UTF-8 encoding is assumed. Besides text files, anonymoUUs is also able to handle (nested) zip archives. These archives will be unpacked in a temp folder, processed and zipped again.
 
-**USE CASES** 
+### How does it work? How to get started?
+
+### Use Cases 
 
 * **YOUth**
   Just one or two sentences on how the anonymoUUs script has been applied to the YOUth data and then a link to the relevant page in the use cases.

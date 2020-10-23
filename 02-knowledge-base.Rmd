@@ -1,4 +1,4 @@
-# (PART) Knowledge Base    
+# (PART) Knowledge Base {-}   
 
 # What is data privacy? 
 

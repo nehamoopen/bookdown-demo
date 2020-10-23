@@ -1,4 +1,4 @@
-# (PART) About this Book & Project  
+# (PART) About this Book & Project {-} 
 
 # Background to the Project
 
@@ -32,7 +32,7 @@ The information in this guide has been compiled with great care, but it absolute
 
 Insert contributor's names with links to their profiles / ORCID ids etc.
 
-# How to cite this book {-}
+# How to cite this book 
 
 If you would like to cite our guide, you can use the DOI (which will eventually be included) and in the following format:
 
