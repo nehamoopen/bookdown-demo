@@ -1,6 +1,6 @@
 # (PART) About this Book & Project  
 
-# Background 
+# Background to the Project
 
 The aim of this project is to build up knowledge, tools, and experience of how researchers can and should deal with personal and sensitive data, with an emphasis on pseudonymization and anonymization techniques + tools. At the moment, knowledge about this appears limited or at best, scattered. This is because different disciplines or projects encounter different issues and/or approach from different angles. This UU-wide project aims to collect information and experiences and build a knowledge base and tool base for UU researchers, wherein the solutions are accessible and reusable as far as possible. 
 

@@ -1,6 +1,6 @@
 # (PART) Techniques & Tools    
 
-# Decision Tree / Tool + Technique Selector 
+# Decision Tree Tool
 
 # Anonymization 
 
