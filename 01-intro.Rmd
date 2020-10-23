@@ -1,6 +1,6 @@
-# (PART) About this Book & Project {-} 
+# (PART) About this Book & Project  
 
-# Background {-}
+# **1.1** Background 
 
 The aim of this project is to build up knowledge, tools, and experience of how researchers can and should deal with personal and sensitive data, with an emphasis on pseudonymization and anonymization techniques + tools. At the moment, knowledge about this appears limited or at best, scattered. This is because different disciplines or projects encounter different issues and/or approach from different angles. This UU-wide project aims to collect information and experiences and build a knowledge base and tool base for UU researchers, wherein the solutions are accessible and reusable as far as possible. 
 
@@ -10,7 +10,7 @@ The specific project goals are as follows:
 3.	Realize or expand a number of tools to solve concrete problems of research projects in this area.
 4.	Develop various workshops and training courses for researchers and support staff about dealing with privacy-sensitive data and the use of the available tools. 
 
-# Structure of this Book {-}
+# **1.2** Structure of this Book 
 
 This is structured into two broad sections:
 
@@ -20,7 +20,7 @@ This is structured into two broad sections:
 
 Each technique (ex. Anonymization) will be contained in a chapter which includes a brief introduction to the concept. Thereafter, sub-sections will introduce tools or workflows (ex. OpenAIRE's Amnesia tool). Where available, tools will be supplemented by an actual use case. 
 
-# Disclaimer {-}
+# **1.3** Disclaimer 
 
 ```{block, type='FOO'}
 
@@ -28,11 +28,11 @@ The information in this guide has been compiled with great care, but it absolute
 
 ```
 
-# Contributors {-}
+# **1.4** Contributors 
 
 Insert contributor's names with links to their profiles / ORCID ids etc.
 
-# How to cite this book {-}
+# **1.5** How to cite this book {-}
 
 If you would like to cite our guide, you can use the DOI (which will eventually be included) and in the following format:
 
