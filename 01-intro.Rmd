@@ -18,7 +18,7 @@ This is structured into two broad sections:
 
 * A **Techniques & Tools** section which provides an overview of available or known tools, techniques, and workflows to address data privacy issues. 
 
-Each technique (ex. Anonymization) will be contained in a chapter which includes a brief introduction to the concept. Thereafter, sub-sections will introduce tools or workflows (ex. OpenAIRE's Amnesia tool). Where available, tools will be supplemented by an actual use case. 
+Each technique (ex. Anonymization, Pseudonymization etc.) will be contained in a chapter which includes a brief introduction to the concept. Thereafter, sub-sections will introduce tools or workflows (ex. OpenAIRE's Amnesia tool). Where available, tools will be supplemented by an actual use case. 
 
 # Disclaimer 
 
